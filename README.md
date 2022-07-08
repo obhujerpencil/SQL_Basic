@@ -43,7 +43,7 @@ select * from EmployeeDemographics where lastname like '%m%i%'
 select gender,count(gender) from EmployeeDemographics 
 group by gender order by count(gender) desc
 ```
-![](images/)
+![](images/Group%20%26%20Order%20.jpg)
 
 ### Bye Byeee.,..
 ![](images/gif_mysql.gif)
