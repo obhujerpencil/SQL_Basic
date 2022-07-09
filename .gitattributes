@@ -4,5 +4,5 @@
 # Show SQL files as SQL
 *.sql linguist-detectable=true
 
-# Show SQL files as MySQL and not TSQL
-*.sql linguist-language=MySQL
+# Show SQL files as SQL and not TSQL
+*.sql linguist-language=sql
