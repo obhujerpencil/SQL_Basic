@@ -62,6 +62,8 @@ select * from EmployeeDemographics where lastname like '%m%i%'
 ![](images/Where%20clause.jpg)
 
 ### Group & Order
+##### Group By statement reduces the number of output by rolling them up after calulating the sum & average of each group.
+##### Order By helps to arrange the data in acending 'asc' or descending 'desc' order.
 ```bash
 select gender,count(gender) from EmployeeDemographics 
 group by gender order by count(gender) desc
