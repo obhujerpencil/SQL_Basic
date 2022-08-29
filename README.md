@@ -62,7 +62,7 @@ select * from EmployeeDemographics where lastname like '%m%i%'
 ![](images/Where%20clause.jpg)
 
 ### Group & Order
-##### The GROUP BY statement groups rows that have the same values and helps to count and agregate them. Example- Number of males and females in a survey.
+##### The GROUP BY statement groups rows that have the same values and helps to count and agregate them. </br>Example- Number of males and females in a survey.
 ##### Order By helps to arrange the data in acending 'asc' or descending 'desc' order.
 ```bash
 select gender,count(gender) from EmployeeDemographics 
